@@ -5,7 +5,7 @@ function About() {
     return(
         <div className={styles.about}>
             <section className={styles.about_img}>
-                <img src="../../Port_back_II.png" alt="" />
+                <img src="/makingone-portfolio/Port_back_II.png" alt="" />
             </section>
             <section className={styles.about_content}>
                 <h2>About<span>Me</span></h2>

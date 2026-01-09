@@ -16,11 +16,15 @@ function Projects() {
                 const { data:res } = await axios.get(`${server}/api/uploads/all`);
 
                 setData(res.result);
-                toast.success(res.msg);
+                // toast.success(res.msg);
 
             } catch (err) {
                 console.error(`Failed to get images:`, err)
-                toast.error(err.response.data.err)
+                if(err.response?.data?.err){
+                    toast.error(err.response.data.err)
+                }else{
+                    toast.error(err.message)
+                }
             }
 
         }
