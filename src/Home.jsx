@@ -9,8 +9,8 @@ function Home() {
             <section className='home'>
                 <div className="content">
                     <h3>Hi, my name is <span>Taoheed</span></h3>
-                    <h2>I'm a <span>web Developer</span></h2>
-                    <p>I am a Web Developer passionate about building responsive, user‑friendly websites. Skilled in HTML, CSS, and JavaScript, with experience in frameworks like React and runtime environments such as Node.js, I focus on creating digital solutions that combine functionality with clean, engaging design.</p>
+                    <h2>I'm a <span className='animated-text'></span></h2>
+                    <p>I am a Web Developer and Graphics Designer passionate about building responsive, visually engaging websites. Skilled in HTML, CSS, and JavaScript, with experience in frameworks like React and Node.js, I create digital solutions that unite functionality with creative design to deliver impactful user experiences.</p>
                     <div className='icons'>
                         <a href='https://www.linkedin.com/in/bee-kay-b95911336/' target='_blank' rel='noopener noreferrer' className='link'><i className='bx bxl-linkedin' ></i></a>
                         <a href='https://github.com/me50/To-Ev' target='_blank' rel='noopener noreferrer' className='link'><i className='bx bxl-github'></i></a>
@@ -22,7 +22,7 @@ function Home() {
                     <img src="/makingone-portfolio/port_back.png" alt="hero pic" />
                 </div>
             </section>
-            <section className="cards">
+            {/* <section className="cards">
                 <div className="card">
                     <h2>FullStack Web Dev</h2>
                     <p>I am a Full‑Stack Web Developer skilled in building responsive interfaces with HTML, CSS, JavaScript, and React, while leveraging Node.js  to create scalable, efficient backend solutions that deliver seamless performance.
@@ -38,7 +38,7 @@ function Home() {
                     <p>I create engaging digital content that blends creativity with strategy, from graphics and visuals to written pieces that connect with audiences, and is not only visually appealing but also purposeful in delivering clear, impactful messages.
                     </p>
                 </div>
-            </section>
+            </section> */}
         </div>
     )
 }

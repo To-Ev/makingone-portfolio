@@ -5,6 +5,7 @@ import './index.css'
 import App from './App.jsx'
 
 // export const server = "http://localhost:5000"
+// https://to-ev.github.io/makingone-portfolio/projects
 export const server = "https://one-backend-kohl.vercel.app"
 
 const container = document.getElementById('root')
